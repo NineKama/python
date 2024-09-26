@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_NineKama_python_1727321522196-push-trigger-input-set
+  identifier: Build_NineKama_python_1727321522196pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_NineKama_python_1727321522196
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
